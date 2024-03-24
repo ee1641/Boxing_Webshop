@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/App.js" type="module"></script>
+    <script src="./assets/js/vendor/modernizr-custom.js"></script>
+    <title>Homepage</title>
+</head>
+
+<body>
+    <!-- Checking if the latest JS version is supported by the browser  -->
+    <script>
+        if (!(Modernizr.es6array && Modernizr.es6collections && Modernizr.arrow && Modernizr.generators && Modernizr.es6math && Modernizr.es6number && Modernizr.es6object && Modernizr.promises && Modernizr.es6string)) {
+            window.location.href = "./old.html";
+        } else {
+            console.log("WORKS!!")
+        }
+    </script>
+    <nav>
+        <a href="#homepage">Homepage</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="homepage">
+        <h1>Combat Sports Store</h1>
+        <h4>"Everyone has a plan 'till they get punched in the mouth." - Mike Tyson</h4>
+        <a href="#about">About us</a>
+
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="wrapper">
+            <div class="info-container">
+
+
+                <div class="customize">
+
+                    <p>
+
+                        Founded in 1976, FightGear Haven is a haven for enthusiasts and athletes in the world of
+                        boxing and mixed martial arts (MMA). Our passion for combat sports led us to establish a store
+                        that not only sells gloves but embodies the spirit of dedication and excellence that defines
+                        these disciplines.
+                    </p>
+                    <p>
+
+                        Our commitment to excellence is reflected in the quality of our gear. We understand the
+                        importance of reliable equipment, and that's why we source our products from renowned brands
+                        known for their durability and performance. Crafted with premium materials, our boxing and MMA
+                        gloves offer the protection and comfort needed for intense training sessions and competitions.
+                    </p>
+                    <p>
+
+                        Explore our extensive selection of gloves, available in various styles, colors, and sizes.
+                        Whether you're a beginner, seasoned amateur, or professional fighter, our curated range caters
+                        to all levels and styles.
+                    </p>
+                    <p>
+
+                        At FightGear Haven, we pride ourselves on providing expert guidance. Our team, composed of
+                        passionate combat sports enthusiasts, is always ready to assist you in making informed decisions
+                        about your gear. We believe that quality gear should be accessible to all, which is why we offer
+                        competitive pricing without compromising on quality.
+                    </p>
+
+                </div>
+            </div>
+            <!-- https://www.ncfitnessgear.com.au/wp-content/uploads/2018/07/boxinggloves.png -->
+            <img src="./assets/media/sparing.webp" alt="muhammad ali">
+        </div>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="wrapper">
+            <div class="info-container">
+
+                <div class="customize">
+                    <!-- https://target.scene7.com/is/image/Target/GUEST_45d9beeb-735f-4160-be52-724133695bdf?wid=488&hei=488&fmt=pjpeg  -->
+                    <img src="./assets/media/gloves1.jpeg" alt="Boxing Gloves">
+                    <p>
+                        Introducing our Elite Series Boxing Gloves – a perfect fusion of craftsmanship and performance.
+                        Constructed with premium leather, these gloves offer superior durability and impact absorption.
+                        The ergonomic design ensures a secure fit, while the ventilated palm keeps you cool during
+                        intense training sessions. Elevate your boxing experience with unmatched comfort and style.
+                    </p>
+                </div>
+
+            </div>
+            <div class="customize">
+                <!-- source : https://www.phantom-athletics.com/cdn/shop/products/2023.jpg?v=1649832054  -->
+                <img src="./assets/media/mma.webp" alt="">
+                <p>
+                    Introducing our ProFlex MMA Gloves, engineered for versatility and resilience. Crafted with
+                    high-grade synthetic materials, these gloves provide optimal flexibility and durability for
+                    grappling and striking. The open-palm design enhances grip, while the multi-layered padding ensures
+                    maximum protection. Elevate your MMA game with gloves designed for performance and comfort.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="order">
+        <h2>Place Order</h2>
+        <div class="wrapper">
+            <div class="info-container">
+
+
+                <div class="customize">
+                    <h1>Customize Your Gloves</h1>
+                    <form id="form-gloves" action="order.html" method="get">
+
+                        <!-- source : https://www.w3schools.com/tags/tag_select.asp -->
+                        <div id="div-selects"></div>
+                        <div class="button-layout">
+                            <input type="reset" class="negative">
+                            <input type="submit" class="positive" id="submit" disabled>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="customize" id="div-glove">
+                <img src="./assets/media/undefined-undefined-undefined.png" alt="Place Holder">
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Contact US</h2>
+        <h5>Email: ee1641@g.rit.edu</h5>
+        <h5>Phone: 0910002000</h5>
+        <h5>All rights Reserved &#169;</h5>
+    </footer>
+
+</body>
+
+</html>

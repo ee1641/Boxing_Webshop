@@ -1,0 +1,24 @@
+/* navigation and effect => refernece previous project : http://solace.ist.rit.edu/~ee1641/project1/index.php  */
+giving the background image a shade of white for readablity => reference : chatGPT
+Page content => reference: chatGPT
+
+images used references : 
+    /* image source: https://4kwallpapers.com/images/wallpapers/workout-limitless-endurance-gym-colorful-smoke-3556x2000-929.jpg */
+        /* https://4kwallpapers.com/images/wallpapers/muhammad-ali-boxer-1284x2778-11119.png  */
+        /* https://w0.peakpx.com/wallpaper/378/761/HD-wallpaper-muhammad-ali-fan-art-the-one-greates-boxer-boxing-american-professional-boxer.jpg  */
+            <!-- https://www.ncfitnessgear.com.au/wp-content/uploads/2018/07/boxinggloves.png -->
+                    <!-- https://target.scene7.com/is/image/Target/GUEST_45d9beeb-735f-4160-be52-724133695bdf?wid=488&hei=488&fmt=pjpeg  -->
+                <!-- source : https://www.phantom-athletics.com/cdn/shop/products/2023.jpg?v=1649832054  -->
+
+select option:
+                    <!-- source : https://www.w3schools.com/tags/tag_select.asp -->
+
+
+
+all boxing glove combinations: 
+https://www.flaticon.com/free-icon/boxing-gloves_5022167?term=boxing+gloves&page=1&position=12&origin=search&related_id=5022167
+https://www.flaticon.com/free-icon/mma_6522203?term=mma&page=1&position=5&origin=search&related_id=6522203
+
+Chat GPT helped with reseting the image back to default  when i took the more dynamic approach. The code being discussed:
+
+ // page used to generate regex: https://regex-generator.olafneumann.org/?sampleText=jupielezi2314%40gmail.com&flags=i&selection=13%7CCharacter,19%7CCharacter,20%7CMultiple%20characters,14%7CMultiple%20characters,0%7CMultiple%20characters,9%7CNumber
